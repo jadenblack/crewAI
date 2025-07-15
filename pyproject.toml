@@ -24,7 +24,7 @@ langchain-openai = "^0.0.2"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.13.2"
-black = "^23.12.1"
+black = ">=23.12.1,<25.0.0"
 autoflake = "^2.2.1"
 pre-commit = "^3.6.0"
 mkdocs-material = "^9.5.3"
